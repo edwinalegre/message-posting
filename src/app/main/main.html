@@ -16,7 +16,7 @@
             <div class="list-group">
                 <ul class="list-group">
                     <li class="list-group-item" ng-repeat="message in main.messages">
-                        {{message.msg}}
+                        {{message.msg}} {{message.user.email}}
                     </li>
                 </ul>
             </div>
